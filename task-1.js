@@ -4,7 +4,7 @@ function isEnoughCapacity(products, containerSize){
         totalSize += products[product]
     };
 
-    if (totalSize > containerSize.lenght){
+    if (totalSize > containerSize){
         return false;
     };
 
